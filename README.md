@@ -9,5 +9,8 @@ If the number entered is too low, the game will print a corresponding message. L
 User has a predetermined 5 tries before the game is considered lost. If the users inputs 0, the game exits. // Added function that checks for valid input (must input integer)
 
 **2. Palindrome checker - [palindrome_functions.py](https://github.com/sebibrindus/python_exercises/blob/python_exercises/palindrome_functions.py)**
-A script that can chekc if a string the user entered from the keyboard is a palindrome (same characters read from the beggining or from the eng).
-Works with either single words or sentences. The app verifies if the string is a single word or a sentence, and applies a different function accordingly. In the case of a sentence, the app removes the spaces in the string and applies the palindrome function as like for any other word. Is built using functions in python.
+A script that can check if a string the user entered from the keyboard is a palindrome (same characters read from the beggining or from the eng).
+Works with either single words or sentences. The app verifies if the string is a single word or a sentence, and applies a different function accordingly. In the case of a sentence, the app removes the spaces in the string and applies the palindrome function as like for any other word. Is built using functions in python. // Introduced Docstring for functions
+
+**3. Fibonacci numbers - [fibonacci_numbers.py](https://github.com/sebibrindus/python_exercises/blob/python_exercises/fibonacci_numbers.py)**
+A function that determines and prints all Fibonacci numbers in a given range. Upper limit of the range is given from keyboard by the user. Also this exercise introduces annotations for functions, so that the functions give hints about the types that are used.
