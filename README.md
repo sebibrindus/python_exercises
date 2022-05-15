@@ -1,4 +1,4 @@
-A repository for the exercises I did while learning Python while watching the videos of [Python Programming Masterclass from Tim Buchalka (Udemy)](https://www.udemy.com/course/python-the-complete-python-developer-course/learn/lecture/17745272#overview)
+A repository for the exercises I did while learning Python, watching the videos in [Python Programming Masterclass from Tim Buchalka (Udemy)](https://www.udemy.com/course/python-the-complete-python-developer-course/learn/lecture/17745272#overview)
 
 # Exercises:
 
