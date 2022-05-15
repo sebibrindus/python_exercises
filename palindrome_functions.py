@@ -16,7 +16,7 @@ def is_palindrome_sentence(string):
         if char.isalnum():
             string_calculator += char
     print(string_calculator)
-    return string_calculator[::-1].casefold() == string_calculator.casefold()
+    return is_palindrome_short(string_calculator)
 
 user_input = input("Please input a user_input or sentence to check for palindrome: ")
 # line above is storing user input into a variable
