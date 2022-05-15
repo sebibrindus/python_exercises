@@ -1,4 +1,12 @@
 def is_palindrome_short(string):
+    """
+        Check if a string is a palindrome.
+
+        A palindrome is a string that reads the same forwards as backwards.
+
+        :param string: The string to check.
+        :return: True if `string` is a palindrome, False otherwise.
+        """
     return string[::-1].casefold() == string.casefold() #short version
     # the line above is performing a slice on the string passed as parameter to the function
     # and also after that it compares this to the original string
@@ -11,6 +19,16 @@ def is_palindrome_long(string):
         return False
 
 def is_palindrome_sentence(string):
+    """
+        Check if a sentence is a palindrome.
+
+        The function ignores whitespace, capitalisation and
+        punctuation in the sentence.
+
+        :param sentence: The sentence to check.
+        :return: True if `sentence` is a palindrome, False otherwise.
+
+        """
     string_calculator = ""
     for char in string:
         if char.isalnum():
