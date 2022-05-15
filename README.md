@@ -14,3 +14,6 @@ Works with either single words or sentences. The app verifies if the string is a
 
 **3. Fibonacci numbers - [fibonacci_numbers.py](https://github.com/sebibrindus/python_exercises/blob/python_exercises/fibonacci_numbers.py)**
 A function that determines and prints all Fibonacci numbers in a given range. Upper limit of the range is given from keyboard by the user. Also this exercise introduces annotations for functions, so that the functions give hints about the types that are used.
+
+**4. Fizz Buzz game - [fizz_buzz.py](https://github.com/sebibrindus/python_exercises/blob/python_exercises/fizz_buzz.py)**
+A game in which the user is requested to enter a number from keyboard representing the maximum number the game will play. For each number up to the max limit passed by the user, the function determines if it is divisible by 3 or by 5. If it is divisible by 3 the program prints "Fizz". If it is divisible by 5, the program outputs the string "Buzz". If a number is divisible by both, the output will be "FizzBuzz". Press 0 to exit program.
