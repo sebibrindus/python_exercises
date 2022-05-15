@@ -6,7 +6,7 @@ A repository for the exercises I did while learning Python while watching the vi
  A very basic game made using Python that requires the user to guess a number between 1 and another number the user enters from keyboard.
  The user is required to enter the number from the keyboard. 
 If the number entered is too low, the game will print a corresponding message. Likewise for the case the number is too high.
-User has a predetermined 5 tries before the game is considered lost. If the users inputs 0, the game exits.
+User has a predetermined 5 tries before the game is considered lost. If the users inputs 0, the game exits. // Added function that checks for valid input (must input integer)
 
 **2. Palindrome checker - [palindrome_functions.py](https://github.com/sebibrindus/python_exercises/blob/python_exercises/palindrome_functions.py)**
 A script that can chekc if a string the user entered from the keyboard is a palindrome (same characters read from the beggining or from the eng).
