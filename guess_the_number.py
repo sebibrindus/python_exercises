@@ -1,6 +1,16 @@
 import random
 # this is a work in progress. I will try to update it and optimise it while I gain new knowledge
 
+# inserted on 15 MAY 22 - new function to check for valid input:
+def get_integer(prompt):
+    while True:
+        temp = input(prompt)
+        if temp.isnumeric():
+            return int(temp)
+        else:
+            print("Invalid input. Try again")
+
+
 # short game presentation and instructions below:
 print("Welcome!")
 print("--------------------------------------")
@@ -15,7 +25,7 @@ print("Enter '0' to quit game")
 print("--------------------------------------")
 
 # retrieving user input and storing into variable (converting input to int):
-highest = int(input("Please choose a maximum number for the range: "))
+highest = get_integer("Please choose a maximum number for the range: ")
 # this is the highest number that determines the range (from 1)
 if highest == 0:
     print("Thank you for playing! Goodbye!")
@@ -29,9 +39,8 @@ chances = 5  #
 
 # asking the user to enter guesses:
 while chances > 0:
-    print("Please enter a number between 1 and {} ".format(highest))
     #  converting user input to int:
-    user_guess = int(input())
+    user_guess = get_integer("Please enter a number between 1 and {} ".format(highest))
 
     # if the user enters the number '0', the game exits
     if user_guess == 0:
