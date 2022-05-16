@@ -1,4 +1,4 @@
-def factorial(max_range):
+def factorial(max_range: int) -> int:
     '''
     A function that multiplies every number between 1 and a given max number
     :param max_range: the maximum range for the factorial
